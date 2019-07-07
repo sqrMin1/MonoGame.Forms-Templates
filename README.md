@@ -1,0 +1,2 @@
+- GitHub: https://github.com/sqrMin1/MonoGame.Forms
+- Marketplace: https://marketplace.visualstudio.com/items?itemName=SandboxBlizz.MonoGameForms42
