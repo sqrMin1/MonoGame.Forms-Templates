@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="MonoGame.Forms.Templates.eb7ef74e-32a1-4b7b-bf7d-f07d0d8d74d5" Version="1.0" Language="en-US" Publisher="Marcel Härtel" />
+        <DisplayName>MonoGame.Forms.Templates</DisplayName>
+        <Description xml:space="preserve">Contains all the templates available for MonoGame.Forms.</Description>
+        <MoreInfo>https://github.com/sqrMin1/MonoGame.Forms</MoreInfo>
+        <GettingStartedGuide>https://github.com/sqrMin1/MonoGame.Forms</GettingStartedGuide>
+        <Icon>Logo.ico</Icon>
+        <PreviewImage>Logo_Shadow_256.png</PreviewImage>
+        <Tags>MonoGameForms MonoGame Windows OpenGL Editor</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\MonoGame.Forms Windows Project.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\MonoGame.Forms Cross Platform Desktop Project.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
